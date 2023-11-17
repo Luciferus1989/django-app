@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "revoc2"
+version = "0.1.0"
+description = ""
+authors = ["Mr Anton <anton.velitsky@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+django-rest-framework = "^0.1.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
