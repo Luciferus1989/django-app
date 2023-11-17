@@ -7,9 +7,13 @@ authors = ["Mr Anton <anton.velitsky@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "^4.2.7"
+django = "4.2.1"
 django-rest-framework = "^0.1.0"
 djangorestframework = "^3.14.0"
+django-filter = "^23.3"
+django-debug-toolbar = "^4.2.0"
+pillow = "^10.1.0"
+gunicorn = "^21.2.0"
 
 
 [build-system]

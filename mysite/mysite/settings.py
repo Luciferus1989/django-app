@@ -273,12 +273,13 @@ SPECTACULAR_SETTINGS = {
 }
 
 LOGLEVEL = getenv('DGANGO_LOGLEVEL', 'info').upper()
+
 logging.config.dictConfig({
-    'version': 2,
+    'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
         'console': {
-            'format': '%(asctime)s %(levelname)s [%(name)s: %(lineno)s %(module)s %(message)s]',
+            'format': '%(asctime)s %(levelname)s [%(name)s: %(lineno)s] %(module)s %(message)s',
         },
     },
     'handlers': {
